@@ -9,3 +9,8 @@ has_part(536, 51515, 'choriste', 'voix', 60).
 ```
 
 This is a snapshot generated some time ago. If you wish to generate a more recent version of this file, you can use the script `jdm2pl.tcl` with a downloaded version of JeuxDeMots. 
+
+Some of the relations are the following.
+- `isa.pl` contains the standard `isa` relation; it contains things like `isa(116350, 144916, 'euro', 'argent', 100)`
+- `syn.pl` contains synonyms; it contains things like `syn(804, 3797, 'jogging', 'footing', 25)`
+- `anto.pl` contains anytonyms; it contains things like `anto(217, 53322, 'brutalement', 'doucement', 63)`
